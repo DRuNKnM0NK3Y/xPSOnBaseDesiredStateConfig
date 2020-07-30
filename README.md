@@ -64,6 +64,7 @@ New-DscChecksum -Path ".\DSCMof"
 Each MOF file and its checksum are stored in the *Configurations* directory of the DSC Pull Server.
 
 Also included is a `Get-ProductID` helper function to grab the Product ID's required for *xPSDesiredStateConfiguration* to automatically install software.  Currently it just pulls all the installed software and product id's, but the future intent is to parameterize so as to pull just the PIDs desired.
+
 ---
 ### **DSC Local Configuration Manager Settings**
 
